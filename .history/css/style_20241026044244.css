@@ -10,3 +10,10 @@ body {
   font-weight: 400;
   color: #555;
 }
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-img {
+  width: 100%;
+}
