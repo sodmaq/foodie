@@ -78,7 +78,7 @@ body {
 
   /* To make header sticky i.e. it stays on top of the page when you scroll */
   height: 9.6rem;
-  padding: 2.8rem 4.8rem;
+  padding: 2.5rem 4.8rem;
 }
 .logo {
   height: 2.2rem;
@@ -88,7 +88,6 @@ body {
 .main-nav-list {
   list-style: none;
   display: flex;
-  align-items: center;
   gap: 3.2rem;
 }
 
@@ -107,18 +106,17 @@ body {
   color: #cf711f;
 }
 
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.4rem;
+.nav-cta:link,
+.nav-cta:visited {
+  padding: 1.6rem 3.2rem;
   border-radius: 9px;
   color: #fff;
   background-color: #e67e22;
 }
-.main-nav-link.nav-cta:link:hover,
-.main-nav-link.nav-cta:visited:active {
+.nav-cta:hover,
+.nav-cta:active {
   background-color: #cf711f;
 }
-
 /* ---------HERO SECTION----------- */
 
 .section-hero {

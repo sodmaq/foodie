@@ -107,18 +107,17 @@ body {
   color: #cf711f;
 }
 
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
+.mian-nav-link.nav-cta:link,
+.mian-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
   background-color: #e67e22;
 }
-.main-nav-link.nav-cta:link:hover,
-.main-nav-link.nav-cta:visited:active {
+.mian-nav-link.nav-cta:link:hover,
+.mian-nav-link.nav-cta:visited:active
   background-color: #cf711f;
 }
-
 /* ---------HERO SECTION----------- */
 
 .section-hero {
