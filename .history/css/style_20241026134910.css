@@ -153,11 +153,16 @@
 }
 
 .step-img-box::after {
+  content: "";
+  display: block;
   width: 45%;
   padding-bottom: 45%;
   background-color: #fae5d3;
   border-radius: 50%;
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: -1;
 }
 
