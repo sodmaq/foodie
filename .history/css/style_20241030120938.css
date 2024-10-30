@@ -385,7 +385,7 @@
 .princing-plan--complete::after {
   content: "Best value";
   position: absolute;
-  top: 6%;
+  top: 10%;
   right: -18%;
 
   text-transform: uppercase;
