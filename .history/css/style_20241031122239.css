@@ -11,7 +11,6 @@
   /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
-  position: relative;
 }
 
 .logo {
@@ -62,8 +61,6 @@
   border: none;
   background: none;
   cursor: pointer;
-
-  display: none;
 }
 
 .icon-mobile-nav {
