@@ -34,6 +34,7 @@ allLinks.forEach(function (link) {
     // close mobile navigation
     if (link.classList.contains("main-nav-link"))
       headerEl.classList.toggle("nav-open");
+
     headerEl.classList.remove("nav-open");
   });
 });
