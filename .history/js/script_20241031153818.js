@@ -55,7 +55,6 @@ const obs = new IntersectionObserver(
     rootMargin: "-80px",
   }
 );
-obs.observe(sectionHeroEl);
 function checkFlexGap() {
   var flex = document.createElement("div");
   flex.style.display = "flex";
